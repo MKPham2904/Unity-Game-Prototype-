@@ -3,10 +3,12 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject enemyPrefabs;
+    public GameObject PowerupPrefabs;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Instantiate(enemyPrefabs, GenerateSpawnPosition() , enemyPrefabs.transform.rotation);
+        Instantiate(enemyPrefabs, GenerateSpawnPosition(), enemyPrefabs.transform.rotation);
+        Instantiate(PowerupPrefabs, GenerateSpawnPosition() , enemyPrefabs.transform.rotation);
     }
 
     // Update is called once per frame
