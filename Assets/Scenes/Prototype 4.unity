@@ -150,6 +150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefabs: {fileID: 5656099314701697156, guid: 20bc7e3d2f3a0314c814b104b9bf6f10, type: 3}
   PowerupPrefabs: {fileID: 4552431512289413266, guid: 426cd8923c9668b4ba453ef7ea3e2d4d, type: 3}
+  enemyCount: 0
+  waveNumber: 1
 --- !u!4 &188284834
 Transform:
   m_ObjectHideFlags: 0
@@ -605,7 +607,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1218687673}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 95124d89a50351d4c8d20d64f27720a2, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -699,7 +701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd4f69aa6ebedbd45a874f91a23df5b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
   hasPowerup: 0
   PowerupInicate: {fileID: 2110349715}
 --- !u!1001 &1403545340
