@@ -20,7 +20,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
+<<<<<<< HEAD
       "version": "2.10.0",
+=======
+      "version": "2.9.3",
+>>>>>>> 599443acadd2848e5e9cce2a29976914887df6b6
       "depth": 0,
       "source": "registry",
       "dependencies": {},

@@ -56,6 +56,10 @@
         "temp/": true,
         "Temp/": true
     },
+<<<<<<< HEAD
     "dotnet.defaultSolution": "Prototype 5.sln",
     "git.ignoreLimitWarning": true
+=======
+    "dotnet.defaultSolution": "Prototype 4.sln"
+>>>>>>> 599443acadd2848e5e9cce2a29976914887df6b6
 }
